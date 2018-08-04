@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.60 scan initiated Wed Mar  7 18:12:01 2018 as: nmap -sn -oX ./updevices.txt 172.16.6.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX ./updevices.txt 172.16.6.0/24" start="1520467921" startstr="Wed Mar  7 18:12:01 2018" version="7.60" xmloutputversion="1.04">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.6.1" addrtype="ipv4"/>
+<address addr="00:50:56:C0:00:08" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="151" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.6.2" addrtype="ipv4"/>
+<address addr="00:50:56:F9:6E:EC" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="123" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.6.130" addrtype="ipv4"/>
+<address addr="00:0C:29:F9:90:EE" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="689" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.6.254" addrtype="ipv4"/>
+<address addr="00:50:56:E0:E8:9B" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<times srtt="206" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="172.16.6.175" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1520467924" timestr="Wed Mar  7 18:12:04 2018" elapsed="3.23" summary="Nmap done at Wed Mar  7 18:12:04 2018; 256 IP addresses (5 hosts up) scanned in 3.23 seconds" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>
